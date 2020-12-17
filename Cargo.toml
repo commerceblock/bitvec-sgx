@@ -58,8 +58,9 @@ radium = "0.3"
 sgx_tstd = { rev = "v1.1.3", git = "https://github.com/apache/teaclave-sgx-sdk.git", optional = true }
 
 [dependencies.either]
+git = "https://github.com/commerceblock/either.git"
 default-features = false
-version = "1.5"
+branch = "sgx"
 
 [dependencies.serde]
 #default-features = false
